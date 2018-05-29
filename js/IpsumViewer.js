@@ -1,6 +1,6 @@
 import Template from './Template.js';
 
-const template = new Template(({ title, category, author, authorUrl, publishedOn, body }) => {
+const template = new Template(({ title, category, author, publishedOn, body }) => {
     return `
     <h4>${title}</h4>
     <ul>
